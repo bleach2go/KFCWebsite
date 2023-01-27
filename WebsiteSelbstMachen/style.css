@@ -1,0 +1,57 @@
+body {
+    position: fixed;
+    margin: 0;
+    padding: 0;
+}
+.Balken {
+    position: static;
+}
+.Logo {
+    margin-right: 160px;
+    margin-top: 12px;
+    position:relative;
+}
+.Click {
+   margin-top: 5px;
+   position:static;
+}
+.buttonG {
+    border: none;
+    height: 64px;
+    width: 150px;;
+    background-color: rgb(0,174,66);
+    position: static;
+    font-size: 20px;
+    font-weight:bolder;
+    align-items: baseline;
+    margin-left: -10px;
+    margin-right: -5px;
+    color: white;
+}
+
+.Buton {
+    background-color: rgb(0,174,66);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.Unterzeile {
+    justify-content: space-evenly;
+    display: flex;
+    margin-left:300px;
+    margin-right: 300px;
+}
+
+.button {
+    border: none;
+    height: 40px;
+    width: 150px;;
+    background: none;
+    margin-top: 100;
+    font-size: 20px;
+    align-items: flex-start;
+}
+
+.button:hover {
+    font-weight: bold;
+}
